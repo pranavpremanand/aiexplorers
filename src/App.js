@@ -1,24 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home/Home";
+import AboutUs from "./pages/AboutUs/AboutUs";
+import ContactUs from "./pages/ContactUs/ContactUs";
+import Services from "./pages/Services/Services";
+import WebDevelopment from "./pages/WebDevelopment/WebDevelopment";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="font-gilroy font-medium text-gray text-lg leading-[27px]">
+        <Routes>
+          {/* <Route
+            path="/"
+            element={<Navigate to={"/react-templates/edumim"} />}
+          />
+          <Route path="/react-templates/edumim" element={<HomeOne />} /> */}
+          <Route
+            path="/"
+            element={<Home />}
+          />
+          <Route
+            path="/about-us"
+            element={<AboutUs />}
+          />
+          <Route
+            path="/contact-us"
+            element={<ContactUs />}
+          />
+          <Route
+            path="/services"
+            element={<Services />}
+          />
+          <Route
+            path="/web-development"
+            element={<WebDevelopment />}
+          />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
