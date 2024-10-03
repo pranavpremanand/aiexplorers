@@ -1,5 +1,6 @@
 import React from "react";
 import about from "../../../assets/images/home-about.jpg";
+import { Link } from "react-router-dom";
 const About = () => {
   return (
     <div className="about-area section-padding">
@@ -22,9 +23,9 @@ const About = () => {
               dedicated to advancing your success. Our commitment to innovation
               and partnership ensures we deliver the best of the best
             </div>
-            <a href="#" className="btn btn-black">
+            <Link to='/contact-us' className="btn btn-black">
               Enquire Now
-            </a>
+            </Link>
           </div>
         </div>
       </div>

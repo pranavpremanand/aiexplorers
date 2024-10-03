@@ -5,6 +5,7 @@ import PageBanner from "../../components/PageBanner";
 import webdevImg from "../../assets/images/web-dev.jpg";
 import contact from "../../assets/images/contact-1.jpg";
 import { portfolio } from "../../constant";
+import { Link } from "react-router-dom";
 
 const WebDevelopment = () => {
   return (
@@ -146,7 +147,7 @@ const WebDevelopment = () => {
                   forward and Chatbot Integration for Growth
                 </p>
               </div>
-              <button className="btn btn-black">Contact Us</button>
+              <Link to='/contact-us' className="btn btn-black">Contact Us</Link>
             </div>
             <div className="xl:col-span-7 lg:col-span-6 col-span-12">
               <img

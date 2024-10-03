@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import { Link } from "react-router-dom";
 
 const services = [
   {
@@ -51,9 +52,9 @@ const Services = () => {
           ))}
         </div>
         <div className="text-center pt-[70px]">
-          <a href="#" className="btn btn-black">
+          <Link to="/services" className="btn btn-black">
             Explore more
-          </a>
+          </Link>
         </div>
       </div>
     </div>

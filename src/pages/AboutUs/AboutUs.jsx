@@ -6,6 +6,7 @@ import About from "./components/About";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import techteamImg from "../../assets/images/tech-team.jpg";
+import { Link } from "react-router-dom";
 
 const AboutUs = () => {
   return (
@@ -37,9 +38,9 @@ const AboutUs = () => {
                 into reality, pushing the envelope in the ever-evolving digital
                 landscape. We are dedicated to driving your success.
               </p>
-              <a href="#" className="btn btn-black">
+              <Link to='/contact-us' className="btn btn-black">
                 Contact Us
-              </a>
+              </Link>
             </div>
           </div>
         </div>
