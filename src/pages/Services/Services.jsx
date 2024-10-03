@@ -85,7 +85,7 @@ const Services = () => {
             <select
               value={selectedService}
               onChange={(e) => setSelectedService(e.target.value)}
-              className="p-3 border border-gray-300 rounded w-[20rem] mt-5 outline-none accent-[#2563eb]"
+              className="p-3 border border-gray-300 rounded w-full sm:w-[20rem] mt-5 outline-none accent-[#2563eb]"
             >
               <option className="cursor pointer" value="">All</option>
               <option className="cursor pointer" value="Web Development">Web Development</option>

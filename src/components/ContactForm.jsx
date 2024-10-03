@@ -9,7 +9,7 @@ const ContactForm = () => {
           <div className="mini-title">Let’s work together
           </div>
           <div className="column-title ">
-          Get in touch today and receive a complimentary
+          Get in touch today and receive a complimentary  {" "}
             <span className="shape-bg"> consultation.</span>
           </div>
         </div>
@@ -19,7 +19,7 @@ const ContactForm = () => {
             <div className="absolute left-0 top-0 w-full h-full bg-[#044FD9]/10 rounded-lg"></div>
           </div>
           <form action="">
-            <div className="grid grid-cols-2 gap-5 mb-5">
+            <div className="grid sm:grid-cols-2 gap-5 mb-5">
               <div className="">
                 <input required type="text" placeholder="Name" className="outline-none rounded-md p-3 outline-0" />
               </div>
@@ -27,7 +27,7 @@ const ContactForm = () => {
                 <input required type="email" placeholder="Email" className="outline-none rounded-md p-3 outline-0" />
               </div>
             </div>
-            <div className="grid grid-cols-2 gap-5 mb-5">
+            <div className="grid sm:grid-cols-2 gap-5 mb-5">
               <div className="">
                 <input required type="text" placeholder="Phone number" className="outline-none rounded-md p-3 outline-0" />
               </div>

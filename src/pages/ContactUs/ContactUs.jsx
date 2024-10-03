@@ -64,7 +64,7 @@ const ContactUs = () => {
             <div class="xl:col-span-7 lg:col-span-6 col-span-12">
               <div class="bg-white shadow-box7 p-8 rounded-md">
                 <form action="">
-                  <div className="grid grid-cols-2 gap-5 mb-5">
+                  <div className="grid sm:grid-cols-2 gap-5 mb-5">
                     <div className="">
                       <input
                         required
@@ -82,7 +82,7 @@ const ContactUs = () => {
                       />
                     </div>
                   </div>
-                  <div className="grid grid-cols-2 gap-5 mb-5">
+                  <div className="grid sm:grid-cols-2 gap-5 mb-5">
                     <div className="">
                       <input
                         required
